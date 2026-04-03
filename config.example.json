@@ -1,0 +1,19 @@
+{
+  "triggers": [
+    {
+      "phrases": ["how do I start", "getting started", "new here"],
+      "response": "Welcome! Check out our [Getting Started Guide]({wiki_url}/getting-started) for everything you need to know.",
+      "cooldown_minutes": 60
+    },
+    {
+      "phrases": ["what tools", "recommended tools", "best software"],
+      "response": "We have a community-maintained [Tools & Resources list]({wiki_url}/tools) that covers the most popular options.",
+      "cooldown_minutes": 120
+    }
+  ],
+  "bot_footer": "\n\n---\n*I'm a bot. [Opt out](https://reddit.com/message/compose?to={bot_username}&subject=opt-out) | [Report issue](https://reddit.com/message/compose?to={mod_team})*",
+  "rate_limit": {
+    "max_replies_per_hour": 10,
+    "cooldown_per_user_minutes": 1440
+  }
+}
